@@ -2,7 +2,6 @@ class WardrobeRunner {
         public static void main(String[] args) {
         
         Wardrobe myWardrobe = new Wardrobe();
-		
 		String name = myWardrobe.material;
         int doors=myWardrobe.numberOfDoors;
         
