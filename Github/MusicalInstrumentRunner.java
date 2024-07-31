@@ -3,7 +3,6 @@ class MusicalInstrumentRunner{
 		System.out.println("Running main in MusicalInstrumentRunner");
 		
 		MusicalInstrument musicalInstrument1=new MusicalInstrument();
-		
 		String name = musicalInstrument1.name;
         String type =musicalInstrument1.type;
 		String material=musicalInstrument1.material;
