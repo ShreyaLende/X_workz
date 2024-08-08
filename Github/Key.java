@@ -1,9 +1,14 @@
 class Key{
-	String typeofKey;
-	int keyPrice;
+	String brand;
+	double weight;
+ public Key(String brand, double weight){
+	 this.brand=brand;
+	 this.weight=weight;
+	System.out.println("create key");
+}
+public void display(){
+	System.out.println("key brand:"+this.brand);
+	System.out.println("key weight:"+this.weight);
 	
-	public Key(){
-		System.out.println("created key");
-	}
-	
+}
 }
